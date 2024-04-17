@@ -6,7 +6,7 @@ This repository contains a collection of mini React projects developed as part o
 ## Projects
 
 ### Movies
-
+![](media/test.gif)
 The `Movies` project is a collection of reusable React components for displaying and managing movies fetched from the Star Wars API (SWAPI). It consists of the following components:
 
 - **MoviesTable**: A component to display movies in a table format.
