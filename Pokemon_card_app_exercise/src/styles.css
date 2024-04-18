@@ -1,0 +1,100 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px 0;
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 16px;
+  padding: 20px;
+  background-color: rgba(255, 255, 226, 0.446);
+}
+.card {
+  background: linear-gradient(to top left, #41bef4, #e87bfe);
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  width: 150px;
+  padding: 4px 16px;
+  margin: 8px 0;
+  box-shadow: 4px 8px 4px rgba(151, 151, 151, 0.5);
+  font-size: small;
+}
+.image img {
+  width: 100%;
+  transition: 0.8s all;
+}
+.image img:hover {
+  scale: 1.4;
+  transform: rotate(16deg);
+}
+
+.hunt-btn {
+  padding: 16px 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #41bef4;
+  margin: 16px;
+  font-size: medium;
+  font-weight: bold;
+  box-shadow: 4px 8px 4px rgba(151, 151, 151, 0.3);
+  cursor: pointer;
+}
+
+.msg {
+  color: rgb(233, 98, 98);
+}
+.captured {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 28px;
+
+  margin: 40px 0px;
+}
+.captured span {
+  font-weight: bold;
+  border: 1px solid gray;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.captured span:hover {
+  scale: 1.1;
+}
+.captured span:last-child {
+  background-color: #41bef4;
+}
+.captured span:first-child {
+  background-color: #e87bfe;
+}
+
+.btn-reset {
+  padding: 16px 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #41bef4;
+  margin: 16px;
+  font-size: medium;
+  font-weight: bold;
+  box-shadow: 4px 8px 4px rgba(151, 151, 151, 0.3);
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-weight: bold;
+}
